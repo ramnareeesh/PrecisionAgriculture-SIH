@@ -1,0 +1,71 @@
+.LoginDiv {
+    display: flex;
+    height: 95vh;
+    background-color: dimgray;
+    text-align: center;
+
+    /*align-items: center;*/
+}
+.LoginBox {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 65vh;
+    padding-top: 5vh;
+    width: 50vw;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333;
+    /*background-image: url("./images/mesh-276.png");*/
+}
+
+.LoginBox:hover {
+    border: 2px solid gray;
+}
+
+.formBox {
+    margin-top: 1vh;
+    width: 50%;
+    height: 3vh;
+    /*border-radius: 5px;*/
+    border: 2px solid #333333;
+    background: #333333;
+    color: white;
+    font-size: 16px;
+    border-bottom: 2px solid white;
+}
+
+.formBox:focus {
+    outline-width: 0;
+
+}
+
+.formBox:hover {
+    width: 60%;
+    transition: 0.25s;
+}
+
+
+form {
+    text-align: left;
+    padding-left: 10vw;
+    padding-top: 5vw;
+}
+
+.LoginBox label{
+    color: white;
+    margin-top: 5vh;
+    font-size: 24px;
+}
+
+button {
+    width: 7vw;
+    height: 5vh;
+    font-weight: normal;
+    font-size: medium;
+    background: dimgray;
+    color: white;
+}
+
