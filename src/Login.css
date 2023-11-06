@@ -22,7 +22,7 @@
 }
 
 .LoginBox:hover {
-    border: 2px solid gray;
+    /*border: 2px solid gray;*/
 }
 
 .formBox {
@@ -67,5 +67,12 @@ button {
     font-size: medium;
     background: dimgray;
     color: white;
+}
+
+.result{
+    color: white;
+    font-size: larger;
+    margin-top: 2vh;
+
 }
 
