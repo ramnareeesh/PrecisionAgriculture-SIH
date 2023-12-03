@@ -21,7 +21,7 @@ def api_add(request):
         for key in data:
             val.append(data[key])
         val = np.array([val])
-        load_classifier = joblib.load("RFClass")
+        load_classifier = joblib.load("RFClass")  # loading the pkl/joblib classifier
         # X_train, X_test, y_train, y_test = preprocess()
 
         y_pred_joblib = load_classifier.test(val)
